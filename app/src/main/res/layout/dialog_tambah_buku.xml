@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Judul Buku" />
+
+    <EditText
+        android:id="@+id/edtPengarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pengarang" />
+
+    <EditText
+        android:id="@+id/edtPenerbit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Penerbit" />
+
+    <EditText
+        android:id="@+id/edtTahunTerbit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tahun Terbit"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtJumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jumlah Buku"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnSimpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan" />
+</LinearLayout>
