@@ -16,7 +16,7 @@ data class Buku(
     @SerializedName("pengarang") val pengarang: String? = null,
     @SerializedName("penerbit") val penerbit: String? = null,
     @SerializedName("lokasi_rak") val lokasiRak: String? = null,
-    @SerializedName("total_peminjaman") val totalPeminjaman: Int? = null
+//    @SerializedName("total_peminjaman") val totalPeminjaman: Int? = null
 )
 
 data class ResponseMessage(

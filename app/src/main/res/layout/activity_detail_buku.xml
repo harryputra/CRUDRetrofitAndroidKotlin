@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:padding="16dp">
 
     <LinearLayout
@@ -9,53 +9,56 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/edtJudul"
+        <TextView
+            android:id="@+id/txtJudul"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Judul Buku"
-            android:inputType="text"
-            android:layout_marginBottom="8dp"/>
+            android:text="Judul Buku"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
 
         <TextView
+            android:id="@+id/txtPengarang"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pilih Pengarang"
-            android:textStyle="bold"/>
-
-        <Spinner
-            android:id="@+id/spinnerPengarang"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"/>
+            android:text="Pengarang: "
+            android:textSize="16sp"/>
 
         <TextView
+            android:id="@+id/txtPenerbit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pilih Penerbit"
-            android:textStyle="bold"/>
+            android:text="Penerbit: "
+            android:textSize="16sp"/>
 
-        <Spinner
-            android:id="@+id/spinnerPenerbit"
+        <TextView
+            android:id="@+id/txtTahunTerbit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"/>
+            android:text="Tahun Terbit: "
+            android:textSize="16sp"/>
 
-        <EditText
-            android:id="@+id/edtTahunTerbit"
+        <TextView
+            android:id="@+id/txtJumlah"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Tahun Terbit"
-            android:inputType="number"
-            android:layout_marginBottom="8dp"/>
+            android:text="Jumlah: "
+            android:textSize="16sp"/>
 
-        <EditText
-            android:id="@+id/edtJumlah"
+        <TextView
+            android:id="@+id/txtISBN"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Jumlah Buku"
-            android:inputType="number"
-            android:layout_marginBottom="8dp"/>
+            android:text="ISBN: "
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/txtLokasiRak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lokasi Rak: "
+            android:textSize="16sp"/>
 
     </LinearLayout>
 </ScrollView>
